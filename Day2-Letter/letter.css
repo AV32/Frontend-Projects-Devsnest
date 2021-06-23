@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  text-shadow: 2px 2px 4px grey;
+  font-family: "Dancing Script", cursive;
+  background-color: black;
+}
+
+.Letter {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(
+    135deg,
+    /* blanchedalmond 0%, */ burlywood 0%,
+    rgb(223, 196, 159) 50%,
+    burlywood 100%
+  );
+  border: solid 2rem;
+  border-image: linear-gradient(
+    to bottom right,
+    black 0%,
+    #555555 15%,
+    black 50%,
+    grey 75%,
+    black 100%
+  );
+  border-image-slice: 3;
+}
+
+h1 {
+  margin: 0rem;
+  margin-top: 2.5%;
+  font-size: 3.5rem;
+  /* text-decoration-line: underline; */
+}
+
+.top {
+    margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 2.25rem;
+  line-height: 3rem;
+}
+
+p {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 2.05rem;
+  line-height: 3.2rem;
+}
+
+a:link {
+    text-decoration-line: none;
+    color: rgb(38, 0, 255);
+  }
+  
+  /* visited link */
+  a:visited {
+    text-decoration-line: none;
+    color: rgb(94, 83, 160);
+    
+
+  }
+  
+  /* mouse over link */
+  a:hover {
+    text-decoration-line: none;
+    color: rgb(192, 0, 0);
+  }
+  
+  /* selected link */
+  a:active {
+    text-decoration-line: none;
+    color: rgb(251, 255, 0);
